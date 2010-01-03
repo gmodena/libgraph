@@ -1,0 +1,12 @@
+libgraph is a small and relatively fast C graph library
+developed in late 2005/early 2006 for the Algorithms and Data Structures
+exam at the University of Trento.
+
+I was recently in need of a tool to compute the betwenness centrality index
+on a graph and thus I resumed it and decided to release it under the terms of a
+BSD license.
+
+The code is quite old and a bit far from my current style, but still does its job
+for me.
+
+Comments are mainly in Italian but that will be fixed (hopefully) soon.
