@@ -5,7 +5,7 @@ HEADERS=lib/stack.h lib/centrality.h lib/graph.h lib/graphio.h
 DESTS=$(SOURCES:.c=.o)
 
 
-all: cb
+all: bc
 
 .c.o:
 	$(CC) $(CFLAFS) $(DEFINES) -c $< -o $@

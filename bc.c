@@ -46,7 +46,7 @@ void help(void)
   printf("-o : oriented graph \n");
   printf("-d : dump the graph output in DOT format \n\n");
   printf("Example: \n");
-  printf("cb -o -d -f net.csv\n ");
+  printf("bc -o -d -f net.csv\n ");
     
 
 }
@@ -55,22 +55,22 @@ int main(int argc, char **argv)
 {
   t_vertex *v1, *v2, *v3, *v4, *v5, *v6, *v7, *v8, *v9, *v10;
   t_vertex *w;
+  
   t_edge *e;
   t_graph *graph;
-  int V = 0;
   t_stack stack;
   t_queue queue;
-  int i=0;
+  
+  int V = 0;
+  int i = 0;
   int dot = 0;
   int bc = 0;
   int is_directed = FALSE;
+  int index;
+  int f, v, c, o;
+  
   char *file = NULL;
   char *num_vertices = NULL;
-  int index;
-  int f;
-  int v;
-  int c;
-  int o;
      
   
   graph = createGraph(TRUE);

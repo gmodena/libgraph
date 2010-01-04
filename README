@@ -1,12 +1,25 @@
-libgraph is a small and relatively fast C graph library
-developed in late 2005/early 2006 for the Algorithms and Data Structures
-exam at the University of Trento.
+== About ==
 
-I was recently in need of a tool to compute the betwenness centrality index
-on a graph and thus I resumed it and decided to release it under the terms of a
+libgraph is a small but relatively fast C graph library
+developed in late 2005/early 2006 for the Algorithms and Data Structures
+class at the University of Trento.
+
+I was recently in need of a tool to visualize and compute the betwenness centrality index
+on a large graph and I resumed this and decided to release it under the terms of a
 BSD license.
 
 The code is quite old and a bit far from my current style, but still does its job
 for me.
 
-Comments are mainly in Italian but that will be fixed (hopefully) soon.
+Comments are mainly in Italian. Hopefully I will fix this soon.
+
+== Betwenness Centrality ==
+
+run `make bc` to build a small utility able to calculate the betwenness centrality
+of nodes.
+
+To usage info just run:
+$ ./bc -h
+
+Graphs can be loaded from CSV files and an option is given to store them in DOT format.
+
